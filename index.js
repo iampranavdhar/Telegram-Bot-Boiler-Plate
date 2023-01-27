@@ -23,7 +23,6 @@ const getMumbaiTemp = async () => {
 };
 
 bot.command("start", async (ctx) => {
-  console.log(ctx.from);
   bot.telegram.sendMessage(
     ctx.chat.id,
     "Hello there! Welcome to my TDelhi bot. From now you will get the temperature of Delhi every 10 seconds.",
